@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Owww so close! You almost got fourth place!!"
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah Hex you did amazing! You rolled just like a [wave amp=100 freq=5]sphere[/wave]!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Sure.. I didn't stand a chance[/i]"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Why am I so bad at rolling? All my edges hurt. If I had more edges I could roll just like them.[/i]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The spheres start to brag towards each other again."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Feeling disappointed you move away from the circles."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684601515.json",
+		"name": "RaceEnd"
+	}
+}

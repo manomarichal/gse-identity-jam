@@ -1,0 +1,141 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Some squares bump into you!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Out of the way! Out of the way! We are making a glorious mega square!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A lot of shapes are looking at the squares as they are putting up a grand show."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You see 9 squares forming a 3x3 big square"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A crowd of shapes is cheering them on"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A very sharp and tough square appears in front of you."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What are you? A triple square?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A triple what? I’m hex the hexagon…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Square1 pushes square2 away."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi I am Square1, sorry for my friend here. Who might you be?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks , I am Hex…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t you worry, some of us squares are a bit rough around the edges. Are you enjoying your time here? The spheres throw the best parties."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah,, I suppose. Just walkin around."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parties not really your thing?"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There are so many unfamiliar shapes…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No need to be so apparent about it. You know what. Square9 just left, would you like to join us in our game?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not really… Still a bit dizzy from the sphere's rolling game."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah come on we can’t play our game with 8 shapes."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All the squares start to move around, yelling that they are going to make a mega square again."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The entire party is looking at the 8 squares trying to make a mega square."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There is one hole in the mega square."
+		},
+		{
+			"character": "character-1684604117.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Guess il try to fit in again..."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684605869.json",
+		"name": "SquareStart"
+	}
+}

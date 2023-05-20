@@ -1,11 +1,11 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "OoOOo",
+	"display_name": "",
 	"display_name_bool": true,
-	"id": "character-1684600414.json",
+	"id": "character-1684604117.json",
 	"mirror_portraits": false,
-	"name": "circle boi",
+	"name": "Introspection",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://characters/shapes/circle.png"
+			"path": ""
 		}
 	],
 	"scale": 100,

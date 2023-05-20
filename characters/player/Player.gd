@@ -4,6 +4,11 @@ export var move_speed = 500;
 
 var _can_interact = false
 var _is_talking = false
+var _scene_to_switch = ""
+
+func _ready():
+	global_position = Global.player_pos
+	$Fade.fade_in()
 
 func _physics_process(delta):
 	if _is_talking: return
@@ -14,7 +19,9 @@ func _process(delta):
 	if _is_talking: return
 	if Input.is_action_just_pressed("Interact") and _can_interact:
 		if $InteractAreaDetector.get_overlapping_areas().size() == 1:
-			start_dialog($InteractAreaDetector.get_overlapping_areas()[0].dialog_timeline)
+			var area = $InteractAreaDetector.get_overlapping_areas()[0]
+			_scene_to_switch = area.scene_path
+			start_dialog(area.dialog_timeline)
 
 func _on_InteractAreaDetector_area_entered(area):
 	_can_interact = true;
@@ -24,9 +31,17 @@ func _on_InteractAreaDetector_area_exited(area):
 	
 func start_dialog(timeline):
 	_is_talking = true
+	Global.player_pos = global_position
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")
 	add_child(dialog)
 
 func _on_event_end(event_type):
-	_is_talking = false
+	_switch_scene()
+	
+func _switch_scene():
+	$Fade.fade_out()
+
+func _on_Fade_fade_out():
+	get_tree().change_scene(_scene_to_switch)
+

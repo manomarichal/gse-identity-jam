@@ -3,9 +3,9 @@
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1684584011.json",
+	"id": "character-1684603487.json",
 	"mirror_portraits": false,
-	"name": "square boi",
+	"name": "OOooOOoo",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://icon.png"
+			"path": ""
 		}
 	],
 	"scale": 100,

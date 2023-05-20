@@ -1,15 +1,31 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scenes/racing_minigame/Racer.tscn" type="PackedScene" id=1]
 [ext_resource path="res://characters/shapes/hex.png" type="Texture" id=2]
 [ext_resource path="res://scenes/racing_minigame/Player.gd" type="Script" id=3]
-[ext_resource path="res://other/Enviroment.tscn" type="PackedScene" id=4]
+[ext_resource path="res://other/random_assets/finish_line.png" type="Texture" id=4]
 [ext_resource path="res://other/walls/wall.png" type="Texture" id=5]
+[ext_resource path="res://scenes/racing_minigame/RacingMinigame.gd" type="Script" id=6]
+[ext_resource path="res://scenes/racing_minigame/Finishline.gd" type="Script" id=7]
+[ext_resource path="res://other/Fade.tscn" type="PackedScene" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 723.5, 95 )
 
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 135.5, 282 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 20.25, 210.5 )
+
 [node name="Racingminigame" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 298, 250 )
+current = true
+limit_left = 0
+limit_bottom = 500
 
 [node name="Racer" parent="." instance=ExtResource( 1 )]
 position = Vector2( 172, 252 )
@@ -17,7 +33,7 @@ racing_speed = 95
 
 [node name="Racer3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 233, 251 )
-racing_speed = 60
+racing_speed = 65
 
 [node name="Racer4" parent="." instance=ExtResource( 1 )]
 position = Vector2( 39, 251 )
@@ -29,7 +45,7 @@ racing_speed = 200
 
 [node name="Player" type="RigidBody2D" parent="."]
 position = Vector2( 298, 250 )
-collision_layer = 0
+collision_layer = 4
 script = ExtResource( 3 )
 push_speed = 50
 
@@ -40,11 +56,6 @@ texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
 polygon = PoolVector2Array( -13, -22, 13, -22, 25, 0, 13, 22, -13, 22, -25, 0 )
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-current = true
-limit_left = 0
-limit_bottom = 500
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2( 380, 289 )
@@ -58,5 +69,32 @@ texture = ExtResource( 5 )
 position = Vector2( -72.5, 79 )
 shape = SubResource( 1 )
 
-[node name="Globals" parent="." instance=ExtResource( 4 )]
-position = Vector2( 105, 45 )
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 770, -116 )
+shape = SubResource( 2 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+margin_left = -96.0
+margin_top = -150.0
+margin_right = 1404.0
+margin_bottom = 850.0
+
+[node name="Finishline" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 4
+script = ExtResource( 7 )
+
+[node name="FinishLine" type="Sprite" parent="Finishline"]
+position = Vector2( 939, 80 )
+texture = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Finishline"]
+position = Vector2( 907.25, 80.5 )
+shape = SubResource( 3 )
+
+[node name="Fade" parent="." instance=ExtResource( 8 )]
+
+[connection signal="body_entered" from="Finishline" to="Player" method="_on_Finishline_body_entered"]

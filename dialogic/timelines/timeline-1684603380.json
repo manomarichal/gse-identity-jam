@@ -1,0 +1,93 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You approach a bunch of circles seemingly brimming with conversation. They are all bragging about how great they can roll! One circle notices you."
+		},
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi I am OoOOo! How you liking my party?"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhm uuhh, yah, I’m Hex… Party is fine, I guess."
+		},
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi I am OooOOO"
+		},
+		{
+			"character": "character-1684603468.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I go by OO"
+		},
+		{
+			"character": "character-1684603487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The name is OOooOOoo"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi"
+		},
+		{
+			"character": "character-1684603520.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am oooO, the greatest roller of the lowlands!"
+		},
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah right! I won the last game didn’t I! I am the faster roller of this party!"
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Guys come one, let’s make Hex feel welcome. Actually would you like to join our game?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All the circles start to line up. OoOOo pushes you in the line."
+		},
+		{
+			"character": "character-1684603487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We spheres really REALLY like to roll! Last time we had an octagon with us they actually beat OO. Show us what you got!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Octagon? But I only have 6 edges…[i]"
+		},
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let's race!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684603380.json",
+		"name": "CircleStart"
+	}
+}
