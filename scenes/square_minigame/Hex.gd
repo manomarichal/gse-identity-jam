@@ -25,3 +25,10 @@ func _on_event_end(event_type):
 func _switch_scene():
 	$Fade.fade_out()
 
+func _on_Fitthing_area_entered(area):
+	global_position = area.global_position
+	_is_talking = true
+	start_dialog("SquareFinish")
+	
+func _on_Fade_fade_out():
+	get_tree().change_scene("res://scenes/Overworld.tscn")

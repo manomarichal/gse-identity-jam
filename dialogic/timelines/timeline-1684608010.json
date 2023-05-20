@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You try to complete the mega square. However it has some holes…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bam! The entire mega square falls apart as you couldn’t make it whole."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You stupid hexagon!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why did we even invite a hexagon!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "GUYS! This is a party, don’t be so mean!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry Hex, looks like it didn’t work out."
+		},
+		{
+			"character": "character-1684604117.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then next time don't force me to join your shape exclusive activities..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You see three squares line up behind each other. They try to look like a hexagon."
+		},
+		{
+			"character": "character-1684604117.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s something… Why do they want to be a hexagon? Being a hexagon sucks."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684608010.json",
+		"name": "SquareFinish"
+	}
+}

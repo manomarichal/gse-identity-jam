@@ -88,6 +88,10 @@ config/icon="res://icon.png"
 
 Global="*res://other/Global.gd"
 
+[display]
+
+window/size/resizable=false
+
 [editor_plugins]
 
 enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
