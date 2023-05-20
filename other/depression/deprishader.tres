@@ -1,0 +1,23 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+
+uniform float percent : hint_range(0, 1);
+
+uniform sampler2D texture_normal;
+
+uniform vec2 texture_direction = vec2(2.0,0.0);
+uniform vec3 color = vec3(0.4, 0.6, 0.9);
+uniform float time_scale : hint_range(0.0, 0.2, 0.005) = 0.025; // Rate of movement multiplied by TIME
+
+void fragment(){
+	vec2 time = (TIME * texture_direction) * time_scale;
+	vec3 normal_waves = texture(texture_normal, UV + time).rgb;
+	
+	vec3 col = normal_waves * color;
+	
+	float a = step(UV.x, percent);
+ 	COLOR = vec4(col.xyz, a);
+}
+"

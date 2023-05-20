@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://other/depression/square.jpeg" type="Texture" id=1]
+[ext_resource path="res://other/depression/screenedgedeprishader.tres" type="Shader" id=2]
+[ext_resource path="res://other/depression/DepriRect.gd" type="Script" id=3]
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = ExtResource( 2 )
+shader_param/percent = 1.0
+
+[node name="DepriRect" type="TextureRect"]
+material = SubResource( 8 )
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 1 )
+stretch_mode = 1
+script = ExtResource( 3 )

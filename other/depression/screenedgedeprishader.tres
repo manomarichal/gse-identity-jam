@@ -1,0 +1,24 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+
+uniform float percent : hint_range(0, 1);
+
+float sdBox( in vec2 p, in vec2 b )
+{
+    vec2 d = abs(p)-b;
+    return length(max(d,0.0)) + min(max(d.x,d.y),0.0);
+}
+
+float sdCircle(vec2 p, float r )
+{
+    return distance(p, vec2(0.5, 0.5)) - r*0.5;
+}
+
+void fragment(){
+	float b = sin(TIME*5.0)*0.02;
+	float c = sdCircle(UV,percent+b);
+ 	COLOR = vec4(0,0,0,c*3.0);
+}
+"

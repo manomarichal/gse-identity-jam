@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scenes/racing_minigame/Racer.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/shapes/hex.png" type="Texture" id=2]
+[ext_resource path="res://scenes/racing_minigame/Player.gd" type="Script" id=3]
+[ext_resource path="res://other/Enviroment.tscn" type="PackedScene" id=4]
+[ext_resource path="res://other/walls/wall.png" type="Texture" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 723.5, 95 )
+
+[node name="Racingminigame" type="Node2D"]
+
+[node name="Racer" parent="." instance=ExtResource( 1 )]
+position = Vector2( 172, 252 )
+racing_speed = 95
+
+[node name="Racer3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 233, 251 )
+racing_speed = 60
+
+[node name="Racer4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 39, 251 )
+racing_speed = 100
+
+[node name="Racer5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 106, 252 )
+racing_speed = 200
+
+[node name="Player" type="RigidBody2D" parent="."]
+position = Vector2( 298, 250 )
+collision_layer = 0
+script = ExtResource( 3 )
+push_speed = 50
+
+[node name="Icon" type="Sprite" parent="Player"]
+modulate = Color( 1, 0, 0, 1 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
+polygon = PoolVector2Array( -13, -22, 13, -22, 25, 0, 13, 22, -13, 22, -25, 0 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+limit_left = 0
+limit_bottom = 500
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( 380, 289 )
+
+[node name="Wall" type="Sprite" parent="StaticBody2D"]
+position = Vector2( 247, 143 )
+scale = Vector2( 40, 10 )
+texture = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -72.5, 79 )
+shape = SubResource( 1 )
+
+[node name="Globals" parent="." instance=ExtResource( 4 )]
+position = Vector2( 105, 45 )

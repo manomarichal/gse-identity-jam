@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://other/depression/DepriRect.tscn" type="PackedScene" id=2]
+[ext_resource path="res://other/depression/screenedgedeprishader.tres" type="Shader" id=4]
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = ExtResource( 4 )
+shader_param/percent = 1.0
+
+[node name="Globals" type="Node2D"]
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+margin_right = 1029.0
+margin_bottom = 595.0
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="DepriRect" parent="UI" instance=ExtResource( 2 )]
+material = SubResource( 8 )
+margin_right = 1029.0
+margin_bottom = 595.0
