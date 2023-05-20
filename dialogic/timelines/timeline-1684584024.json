@@ -1,0 +1,38 @@
+{
+	"events": [
+		{
+			"character": "character-1684584011.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "im a square boi"
+		},
+		{
+			"character": "character-1684584011.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "what u think of squares"
+		},
+		{
+			"choice": "square suc",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "square cool",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684584024.json",
+		"name": "test"
+	}
+}
