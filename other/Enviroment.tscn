@@ -15,6 +15,7 @@ layer = -1
 [node name="ColorRect" type="ColorRect" parent="Background"]
 margin_right = 1029.0
 margin_bottom = 595.0
+color = Color( 0.756863, 0.505882, 0.678431, 1 )
 
 [node name="UI" type="CanvasLayer" parent="."]
 layer = 2
