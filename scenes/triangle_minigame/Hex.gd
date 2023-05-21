@@ -25,7 +25,6 @@ func _ready():
 	
 func start_dialog(timeline):
 	_is_talking = true
-	Global.player_pos = global_position
 	print(Global.player_pos)
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")

@@ -22,6 +22,7 @@ margin_left = -11.0
 margin_top = 3.0
 margin_right = 1018.0
 margin_bottom = 598.0
+mouse_filter = 1
 
 [node name="UI" type="CanvasLayer" parent="."]
 layer = 2
