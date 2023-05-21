@@ -1,0 +1,17 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+
+// CREDITS https://www.shadertoy.com/view/XtByRV
+void fragment(){
+	vec2 uv = UV*0.5+0.25;
+    float t=TIME*5.0;
+    float l=uv.x;
+    vec3 col=vec3(
+        sin(t*0.51+l*1.5+93.0)+sin(t*0.12+l*3.2+35.0)+0.5,
+        sin(t*0.37-l*1.7+12.1)+sin(t*0.17+l*1.9-85.0)+0.5,
+        sin(t*0.45+l*2.1+15.0)+sin(t*0.22+l*2.5+95.0+0.5)
+    )*0.2+0.5;
+	COLOR = vec4(col*uv.y*(1.0-uv.y)*3.0,1.0);
+}"

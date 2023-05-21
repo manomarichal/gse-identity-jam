@@ -4,10 +4,10 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Some squares bump into you!"
+			"text": "You bump into some squares"
 		},
 		{
-			"character": "",
+			"character": "character-1684666847.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Out of the way! Out of the way! We are making a glorious mega square!"
@@ -37,13 +37,13 @@
 			"text": "A very sharp and tough square appears in front of you."
 		},
 		{
-			"character": "",
+			"character": "character-1684666854.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "What are you? A triple square?"
 		},
 		{
-			"character": "",
+			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "A triple what? I’m hex the hexagon…"
@@ -52,34 +52,34 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Square1 pushes square2 away."
+			"text": "Square1 pushes Square7 away."
 		},
 		{
-			"character": "",
+			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Hi I am Square1, sorry for my friend here. Who might you be?"
 		},
 		{
-			"character": "",
+			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Thanks , I am Hex…"
 		},
 		{
-			"character": "",
+			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Don’t you worry, some of us squares are a bit rough around the edges. Are you enjoying your time here? The spheres throw the best parties."
 		},
 		{
-			"character": "",
+			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Yah,, I suppose. Just walkin around."
 		},
 		{
-			"character": "",
+			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Parties not really your thing?"
@@ -91,19 +91,19 @@
 			"text": "There are so many unfamiliar shapes…"
 		},
 		{
-			"character": "",
+			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "No need to be so apparent about it. You know what. Square9 just left, would you like to join us in our game?"
 		},
 		{
-			"character": "",
+			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Not really… Still a bit dizzy from the sphere's rolling game."
 		},
 		{
-			"character": "",
+			"character": "character-1684666835.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Ah come on we can’t play our game with 8 shapes."
@@ -127,10 +127,10 @@
 			"text": "There is one hole in the mega square."
 		},
 		{
-			"character": "character-1684604117.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Guess il try to fit in again..."
+			"text": "[i]Guess il try to fit in again...[/i]"
 		}
 	],
 	"metadata": {

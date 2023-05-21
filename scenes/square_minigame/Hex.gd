@@ -14,7 +14,6 @@ func _physics_process(delta):
 
 func start_dialog(timeline):
 	_is_talking = true
-	Global.player_pos = global_position
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")
 	add_child(dialog)
@@ -31,4 +30,5 @@ func _on_Fitthing_area_entered(area):
 	start_dialog("SquareFinish")
 	
 func _on_Fade_fade_out():
+	Global.depri_percent += 0.3
 	get_tree().change_scene("res://scenes/Overworld.tscn")

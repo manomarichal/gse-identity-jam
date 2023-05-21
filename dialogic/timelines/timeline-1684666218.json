@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah man you did great Hex. Triangles! Point to Hex!"
+		},
+		{
+			"character": "character-1684667450.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow Hex you jumped so fast and high!"
+		},
+		{
+			"character": "character-1684667456.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah that was awesome!"
+		},
+		{
+			"character": "character-1684667478.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah Hex is the best!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]But I fell down...[/i]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Why are they all lying to me?[/i]"
+		},
+		{
+			"character": "character-1684667461.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah Hex is great! You’re not hexed like the other hexagons I met. Your hex is hexagon!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ha, thanks I guess."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Once more made aware that you view life from a different angle, you move away from the group of triangles."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684666218.json",
+		"name": "JampEnd"
+	}
+}

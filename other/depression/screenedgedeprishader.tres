@@ -18,7 +18,7 @@ float sdCircle(vec2 p, float r )
 
 void fragment(){
 	float b = sin(TIME*5.0)*0.02;
-	float c = sdCircle(UV,percent+b);
+	float c = sdCircle(UV,(1.0-percent)+b);
  	COLOR = vec4(0,0,0,c*3.0);
 }
 "

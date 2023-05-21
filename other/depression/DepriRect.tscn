@@ -6,7 +6,7 @@
 
 [sub_resource type="ShaderMaterial" id=8]
 shader = ExtResource( 2 )
-shader_param/percent = 1.0
+shader_param/percent = 0.0
 
 [node name="DepriRect" type="TextureRect"]
 material = SubResource( 8 )

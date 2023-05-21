@@ -7,6 +7,7 @@ var _is_talking = false
 var _scene_to_switch = ""
 
 func _ready():
+	print(Global.player_pos)
 	global_position = Global.player_pos
 	$Fade.fade_in()
 
@@ -32,6 +33,7 @@ func _on_InteractAreaDetector_area_exited(area):
 func start_dialog(timeline):
 	_is_talking = true
 	Global.player_pos = global_position
+	print(Global.player_pos)
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")
 	add_child(dialog)

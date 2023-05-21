@@ -44,7 +44,7 @@ position = Vector2( 106, 252 )
 racing_speed = 200
 
 [node name="Player" type="RigidBody2D" parent="."]
-position = Vector2( 298, 250 )
+position = Vector2( 293, 250 )
 collision_layer = 4
 script = ExtResource( 3 )
 push_speed = 50
@@ -81,6 +81,7 @@ margin_left = -96.0
 margin_top = -150.0
 margin_right = 1404.0
 margin_bottom = 850.0
+color = Color( 0.756863, 0.505882, 0.678431, 1 )
 
 [node name="Finishline" type="Area2D" parent="."]
 collision_layer = 0

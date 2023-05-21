@@ -17,7 +17,7 @@ void fragment(){
 	
 	vec3 col = normal_waves * color;
 	
-	float a = step(UV.x, percent);
+	float a = step(UV.x, 1.0-percent);
  	COLOR = vec4(col.xyz, a);
 }
 "

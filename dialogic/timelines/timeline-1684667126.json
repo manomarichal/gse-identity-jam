@@ -1,0 +1,141 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tok, tok, tok. Thumb, tle partyhumb, thumb."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Some triangles appear to be jumping into the ceiling to get stuck."
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yooo! You can see the whole party from up here!!"
+		},
+		{
+			"character": "character-1684667456.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let’s go! My turn!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The triangle jumps up into the ceiling"
+		},
+		{
+			"character": "character-1684667450.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wooohoooo, Awesome! Glorious! What a jump!"
+		},
+		{
+			"character": "character-1684667461.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wooow good job Spike! You’re so awesome!"
+		},
+		{
+			"character": "character-1684667478.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah you are the best Spike!"
+		},
+		{
+			"character": "character-1684667456.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No you two are the best! You stuck way better to the ceiling then I did!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All the triangles are pointing towards each other will giving compliments, a lot of compliments."
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Hexagon shape! Out of the way!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you look up for the sound a triangle falls on top of you. Auch."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Ouch, how did I not notice them? Am I hexed? Should I just leave this party?[/i]"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi pal, are you ok? I’m so sorry for falling onto you!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hex: Auch, that’s... I’m ok…"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really really sorry, hopefully I didn’t hurt you. You have some amazing looking points. I bet those would be great for sticking to ceilings."
+		},
+		{
+			"character": "character-1684667478.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah you look great! You have twice as many points as we do!"
+		},
+		{
+			"character": "character-1684667450.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yah such a cool shape you are! So exotic!"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What do you think want to join our little jumping game? The view is amazing up top"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, unfortunately my forehead is flat so I dont think I can stick to the ceiling..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One of the triangles hands you a triangle shaped hat."
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here, have this hat, it should help you!!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684667126.json",
+		"name": "TrianglePartey"
+	}
+}
