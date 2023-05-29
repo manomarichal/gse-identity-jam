@@ -18,10 +18,10 @@ layer = -1
 
 [node name="ColorRect" type="ColorRect" parent="Background"]
 material = SubResource( 9 )
-margin_left = -11.0
-margin_top = 3.0
-margin_right = 1018.0
-margin_bottom = 598.0
+margin_left = -21.0
+margin_top = -16.0
+margin_right = 1079.0
+margin_bottom = 634.0
 mouse_filter = 1
 
 [node name="UI" type="CanvasLayer" parent="."]
@@ -30,4 +30,4 @@ layer = 2
 [node name="DepriRect" parent="UI" instance=ExtResource( 2 )]
 material = SubResource( 8 )
 margin_right = 1029.0
-margin_bottom = 595.0
+margin_bottom = 605.0

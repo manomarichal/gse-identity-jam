@@ -70,13 +70,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "As you look up for the sound a triangle falls on top of you. Auch."
+			"text": "Right after hearing that, a triangle falls on top of you. Auch."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]Ouch, how did I not notice them? Am I hexed? Should I just leave this party?[/i]"
+			"text": "[i]Ouch, how did I not notice them? Am I hexed?[/i]"
 		},
 		{
 			"character": "character-1684667491.json",
@@ -88,7 +88,7 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hex: Auch, that’s... I’m ok…"
+			"text": "Auch, that’s... I’m ok…"
 		},
 		{
 			"character": "character-1684667491.json",
@@ -112,7 +112,7 @@
 			"character": "character-1684667491.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "What do you think want to join our little jumping game? The view is amazing up top"
+			"text": "What do you think, want to join our little jumping game? The view is amazing up top"
 		},
 		{
 			"character": "character-1684603509.json",

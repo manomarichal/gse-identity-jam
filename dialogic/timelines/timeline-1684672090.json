@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you leave the party, you look behind you back at the party seeing all the shapes being happy. \n[i]If only I could have been part of the fun…[/i]\n[i]If only I could fit in…[/i]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684672090.json",
+		"name": "BadEnding"
+	}
+}

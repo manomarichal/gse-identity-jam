@@ -87,6 +87,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Global="*res://other/Global.gd"
+Audio="*res://other/Audio.tscn"
 
 [display]
 

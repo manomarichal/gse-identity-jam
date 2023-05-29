@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]None of the other shapes like me…[/i]\n[i]I don’t fit in anywhere.[/i]\n[i]I couldn't roll…[/i]\n[i]I literally didn't fit in with the squares… [/i]\n[i]The triangles were all liars…[/i]\nAs you start to leave the party moving towards the exit. You see OoOOo roll towards you."
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Hex, wait! How are you doing? I heard you couldn't really fit in with the shape games."
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "uuuhhh, yah. I couldn't.\nI am just too different."
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whaaat! I heard everyone really liked you! Willing to try their games even if you are different."
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really? \nThe other shapes liked me?"
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ofcourse! Hex you are great! Some of us wish to be like you, so daring to mingle."
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So stay a bit longer and join us on the dance floor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And so Hex the hexagon realized that they were part of the party all along. And all the shapes had a great and fun night dancing!\nEven if all the shapes are different, different shapes can still fit together. Be kind.\n"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684672114.json",
+		"name": "GoodEnding"
+	}
+}

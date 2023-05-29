@@ -1,6 +1,11 @@
 {
 	"events": [
-
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welcome!\nYou are Hex, an hexagon.\nYears ago, your parents moved away from the Hexagulf, your hometown, to the other side of the world.\nSince then, you've had trouble fitting in with all these unknown shapes, and mostly confined yourself indoors.\nToday is different though, as you gathered the courage to head out to a party, aiming to form some friends.\n(WASD to move)\nHave fun!"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

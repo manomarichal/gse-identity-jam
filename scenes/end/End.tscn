@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://other/random_assets/GoodEnding.png" type="Texture" id=1]
+[ext_resource path="res://other/Fade.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/end/End.gd" type="Script" id=3]
+
+[node name="EndScreen" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="GoodEnding" type="Sprite" parent="."]
+position = Vector2( 512, 298 )
+scale = Vector2( 1, 1.00667 )
+texture = ExtResource( 1 )
+
+[node name="Fade" parent="." instance=ExtResource( 2 )]
