@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://scenes/circle_minigame/Racer.tscn" type="PackedScene" id=1]
 [ext_resource path="res://characters/shapes/hex.png" type="Texture" id=2]
@@ -9,6 +9,11 @@
 [ext_resource path="res://scenes/circle_minigame/Finishline.gd" type="Script" id=7]
 [ext_resource path="res://other/Fade.tscn" type="PackedScene" id=8]
 [ext_resource path="res://characters/shapes/star.png" type="Texture" id=9]
+[ext_resource path="res://characters/shapes/moon.png" type="Texture" id=10]
+[ext_resource path="res://characters/shapes/hearth.png" type="Texture" id=11]
+
+[sub_resource type="CircleShape2D" id=4]
+radius = 24.0208
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 723.5, 95 )
@@ -72,6 +77,33 @@ texture = ExtResource( 9 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Star"]
 polygon = PoolVector2Array( -1, -22, 1, -22, 7, -9, 22, -7, 23, -5, 12, 6, 14, 20, 12, 21, 0, 15, -13, 21, -15, 20, -13, 6, -23, -4, -22, -7, -8, -9 )
+
+[node name="Moon" type="RigidBody2D" parent="."]
+visible = false
+position = Vector2( 295, 211 )
+collision_layer = 4
+script = ExtResource( 3 )
+
+[node name="Moon" type="Sprite" parent="Moon"]
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 10 )
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="Moon"]
+shape = SubResource( 4 )
+
+[node name="Heart" type="RigidBody2D" parent="."]
+visible = false
+position = Vector2( 295, 211 )
+collision_layer = 4
+script = ExtResource( 3 )
+push_speed = 50
+
+[node name="Moon" type="Sprite" parent="Heart"]
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 11 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Heart"]
+polygon = PoolVector2Array( -9, -21, -13, -21, -18, -20, -22, -16, -23, -14, -24, -12, -24, -10, -24, -7, -24, -5, -22, -1, -1, 21, 1, 21, 23, -2, 24, -6, 24, -10, 23, -14, 21, -17, 18, -19, 13, -21, 8, -20, 5, -18, 2, -16, 0, -15, -4, -18 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2( 383, 251 )

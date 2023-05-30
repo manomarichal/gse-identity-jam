@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Which shape's story would you like to follow?\nPress a number to choose: (1) Hexagon (2) Star (3) Hearth"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685455207.json",
+		"name": "ShapeChoice"
+	}
+}

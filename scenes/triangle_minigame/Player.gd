@@ -26,6 +26,10 @@ func _ready():
 	elif Global.shape == 1:
 		$Star.visible = true
 		$Hat.visible = false
+	elif Global.shape == 2:
+		$Moon.visible = true
+	elif Global.shape == 3:
+		$Heart.visible = true
 	
 		
 func apply_horizontal_movement(delta, velocity)-> Vector2:

@@ -7,7 +7,11 @@ func _ready():
 		$Hexagon.visible = true
 	elif Global.shape == 1:
 		$Star.visible = true
-
+	elif Global.shape == 2:
+		$Moon.visible = true
+	elif Global.shape == 3:
+		$Heart.visible = true
+		
 func start_dialog(timeline):
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")
@@ -23,6 +27,8 @@ func _on_event_end(event_type):
 		$Hexagon.race = true;
 	elif Global.shape == 1:
 		$Star.race = true
-
-
+	elif Global.shape == 2:
+		$Moon.race = true
+	elif Global.shape == 3:
+		$Heart.race = true
 

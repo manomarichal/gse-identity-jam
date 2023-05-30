@@ -7,9 +7,24 @@ func _ready():
 	if Global.shape == 0:
 		player = $Hexagon
 		$Star.queue_free()
+		$Moon.queue_free()
+		$Heart.queue_free()
 	elif Global.shape == 1:
 		player = $Star
-		$Hexagon.queue_free()	
+		$Hexagon.queue_free()
+		$Moon.queue_free()	
+		$Heart.queue_free()
+	elif Global.shape == 2:
+		player = $Moon
+		$Star.queue_free()
+		$Hexagon.queue_free()
+		$Heart.queue_free()
+	elif Global.shape == 3:
+		player = $Heart
+		$Star.queue_free()
+		$Hexagon.queue_free()
+		$Moon.queue_free()	
+		
 	$Fade.fade_in()
 	player.visible = true
 	
@@ -20,9 +35,10 @@ func _start_game():
 	player.queue_free()
 	var i = 2 if Global.shape == 0 else 5
 	yield(get_tree().create_timer(i), "timeout")
+	print("hi")
 	if Global.shape == 0:
 		start_dialog("SquareFinishGood")
-	elif Global.shape == 1:
+	else:
 		start_dialog("SquareFinish")
 	_stage += 1
 
@@ -48,5 +64,5 @@ func _on_Fitthing_area_entered(area):
 	start_dialog("SquareGameStart")
 	
 func _on_Fade_fade_out():
-	Global.depri_percent += 0.3
+	Global.depri_percent += 0.2
 	get_tree().change_scene("res://scenes/Overworld.tscn")

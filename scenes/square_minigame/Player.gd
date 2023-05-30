@@ -17,6 +17,7 @@ func replace_by_rigid():
 	get_parent().call_deferred("add_child", r)
 	r.global_position = global_position
 	r.get_node("CollisionPolygon2D").polygon = $CollisionPolygon2D.polygon
+	r.get_node("CollisionPolygon2D").scale = $CollisionPolygon2D.scale
 	r.get_node("Sprite").texture = $Sprite.texture
 	r.get_node("Sprite").scale = $Sprite.scale
 

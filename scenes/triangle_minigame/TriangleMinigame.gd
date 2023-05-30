@@ -38,5 +38,5 @@ func _on_event_end(event_type):
 		$Fade.fade_out()
 
 func _on_Fade_fade_out():
-	Global.depri_percent += 0.3
+	Global.depri_percent += 0.2
 	get_tree().change_scene("res://scenes/Overworld.tscn")

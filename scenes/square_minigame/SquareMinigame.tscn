@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://scenes/square_minigame/SquareMinigame.gd" type="Script" id=1]
 [ext_resource path="res://other/walls/wall.png" type="Texture" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://other/Fade.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/square_minigame/Square.tscn" type="PackedScene" id=6]
 [ext_resource path="res://characters/shapes/star.png" type="Texture" id=7]
+[ext_resource path="res://characters/shapes/moon.png" type="Texture" id=8]
+[ext_resource path="res://characters/shapes/hearth.png" type="Texture" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 478, 47 )
@@ -15,7 +17,7 @@ extents = Vector2( 478, 47 )
 extents = Vector2( 4, 4 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 4, 4 )
+extents = Vector2( 8, 8 )
 
 [node name="SquareMinigame" type="Node2D"]
 script = ExtResource( 1 )
@@ -40,14 +42,14 @@ position = Vector2( -88, -8 )
 
 [node name="StaticBody2D10" parent="squares" instance=ExtResource( 6 )]
 position = Vector2( 16, -104 )
-mass = 20.0
+mass = 10.0
 
 [node name="StaticBody2D11" parent="squares" instance=ExtResource( 6 )]
 position = Vector2( -88, 88 )
 
 [node name="StaticBody2D12" parent="squares" instance=ExtResource( 6 )]
 position = Vector2( 16, -8 )
-mass = 20.0
+mass = 10.0
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2( 472, 455 )
@@ -108,6 +110,7 @@ position = Vector2( 10, 143 )
 shape = SubResource( 1 )
 
 [node name="Hexagon" type="KinematicBody2D" parent="."]
+visible = false
 position = Vector2( 160, 280 )
 collision_layer = 0
 script = ExtResource( 4 )
@@ -127,6 +130,7 @@ collision_mask = 0
 shape = SubResource( 2 )
 
 [node name="Star" type="KinematicBody2D" parent="."]
+visible = false
 position = Vector2( 160, 280 )
 collision_layer = 0
 script = ExtResource( 4 )
@@ -145,12 +149,54 @@ collision_mask = 0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Star/Area2D"]
 shape = SubResource( 2 )
 
+[node name="Moon" type="KinematicBody2D" parent="."]
+visible = false
+position = Vector2( 160, 280 )
+collision_layer = 0
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Moon"]
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 8 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Moon"]
+polygon = PoolVector2Array( -1, -46, -8, -16, 0, 0, 16, 8, 48, 0, 40, 24, 26, 44, 0, 48, -32, 44, -48, 16, -49, -13, -40, -24, -32, -32, -24, -40, -9.25524, -43.8465 )
+
+[node name="Area2D" type="Area2D" parent="Moon"]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Moon/Area2D"]
+shape = SubResource( 2 )
+
+[node name="Heart" type="KinematicBody2D" parent="."]
+visible = false
+position = Vector2( 160, 280 )
+collision_layer = 0
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Heart"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 9 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Heart"]
+scale = Vector2( 2, 2 )
+polygon = PoolVector2Array( -9, -21, -13, -21, -18, -20, -22, -16, -23, -14, -24, -12, -24, -10, -24, -7, -24, -5, -22, -1, -1.5, 20, 0, 21, 2, 20, 23, -2, 24, -6, 24, -10, 23, -14, 21, -17, 18, -19, 13, -21, 8, -20, 5, -18, 2, -16, 0, -15, -4, -18 )
+
+[node name="Area2D" type="Area2D" parent="Heart"]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Heart/Area2D"]
+shape = SubResource( 2 )
+
 [node name="Fitthing" type="Area2D" parent="."]
 position = Vector2( 505, 317 )
 collision_layer = 0
 collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Fitthing"]
+position = Vector2( 0, -1 )
 shape = SubResource( 3 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]

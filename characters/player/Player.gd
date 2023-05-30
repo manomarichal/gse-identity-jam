@@ -24,6 +24,20 @@ func _ready():
 		Dialogic.set_variable("trianglehat", false)
 		Dialogic.set_variable("pcompliment", "You truly were the star!")
 		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
+	elif Global.shape == 2:
+		$Moon.visible = true
+		Dialogic.set_variable("pn", "Moon")
+		Dialogic.set_variable("ps", "moon")
+		Dialogic.set_variable("pht", "Starkansas")
+		Dialogic.set_variable("pcompliment", "You truly were the star!")
+		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
+	elif Global.shape == 3:
+		$Heart.visible = true
+		Dialogic.set_variable("pn", "Heart")
+		Dialogic.set_variable("ps", "heart")
+		Dialogic.set_variable("pht", "Starkansas")
+		Dialogic.set_variable("pcompliment", "You truly were the star!")
+		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
 		
 	global_position = Global.player_pos
 	$Fade.fade_in()
