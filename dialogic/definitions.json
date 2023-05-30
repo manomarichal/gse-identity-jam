@@ -4,10 +4,46 @@
 	],
 	"variables": [
 		{
-			"id": "1684603938-913",
-			"name": "flip1",
+			"id": "1685441677-146",
+			"name": "ps",
 			"type": 0,
-			"value": "0"
+			"value": "default_shape"
+		},
+		{
+			"id": "1685441849-483",
+			"name": "pa",
+			"type": 0,
+			"value": "5"
+		},
+		{
+			"id": "1685441926-970",
+			"name": "pht",
+			"type": 0,
+			"value": "the Hexagulf"
+		},
+		{
+			"id": "1685452454-713",
+			"name": "trianglehat",
+			"type": 0,
+			"value": "true"
+		},
+		{
+			"id": "1685454352-339",
+			"name": "pcompliment",
+			"type": 0,
+			"value": "You’re not hexed like the other hexagons I met. Your hex is hexagon!"
+		},
+		{
+			"id": "1685454548-785",
+			"name": "phex",
+			"type": 0,
+			"value": "\"you should not see this line of text\""
+		},
+		{
+			"id": "1685441673-366",
+			"name": "pn",
+			"type": 0,
+			"value": "default_name"
 		}
 	]
 }

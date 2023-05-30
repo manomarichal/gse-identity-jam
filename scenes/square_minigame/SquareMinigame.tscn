@@ -155,7 +155,6 @@ shape = SubResource( 3 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
-visible = false
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 margin_left = -200.0

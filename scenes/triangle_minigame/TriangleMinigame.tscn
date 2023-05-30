@@ -1,15 +1,14 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://scenes/triangle_minigame/Hex.gd" type="Script" id=1]
+[ext_resource path="res://scenes/triangle_minigame/Player.gd" type="Script" id=1]
 [ext_resource path="res://other/walls/wall.png" type="Texture" id=2]
 [ext_resource path="res://characters/shapes/hex.png" type="Texture" id=3]
 [ext_resource path="res://scenes/triangle_minigame/Traingle.tscn" type="PackedScene" id=4]
 [ext_resource path="res://other/Fade.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/triangle_minigame/Triangles.gd" type="Script" id=6]
 [ext_resource path="res://characters/shapes/traingle.png" type="Texture" id=7]
-
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 478, 47 )
+[ext_resource path="res://scenes/triangle_minigame/TriangleMinigame.gd" type="Script" id=8]
+[ext_resource path="res://characters/shapes/star.png" type="Texture" id=9]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 19, 3 )
@@ -17,74 +16,14 @@ extents = Vector2( 19, 3 )
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 48, 44.5 )
 
-[sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 4, 4 )
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 478, 47 )
 
-[node name="SquareMinigame" type="Node2D"]
+[node name="TriangleMinigame" type="Node2D"]
+script = ExtResource( 8 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2( 472, 455 )
-scale = Vector2( 1.5, 1 )
-collision_mask = 0
-
-[node name="Wall" type="Sprite" parent="StaticBody2D"]
-position = Vector2( 9.00006, 144 )
-scale = Vector2( 30, 3 )
-texture = ExtResource( 2 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 10, 143 )
-shape = SubResource( 1 )
-
-[node name="StaticBody2D2" type="StaticBody2D" parent="."]
-position = Vector2( 524, -161 )
-scale = Vector2( 1.5, 1 )
-collision_layer = 5
-collision_mask = 0
-
-[node name="Wall" type="Sprite" parent="StaticBody2D2"]
-position = Vector2( 9.00006, 144 )
-scale = Vector2( 30, 3 )
-z_index = 10
-z_as_relative = false
-texture = ExtResource( 2 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
-position = Vector2( 10, 143 )
-shape = SubResource( 1 )
-
-[node name="StaticBody2D3" type="StaticBody2D" parent="."]
-position = Vector2( 1176, 160 )
-rotation = 1.5708
-scale = Vector2( 1.5, 1 )
-collision_mask = 0
-
-[node name="Wall" type="Sprite" parent="StaticBody2D3"]
-position = Vector2( 9.00006, 144 )
-scale = Vector2( 30, 3 )
-texture = ExtResource( 2 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
-position = Vector2( 10, 143 )
-shape = SubResource( 1 )
-
-[node name="StaticBody2D4" type="StaticBody2D" parent="."]
-position = Vector2( 133, 179 )
-rotation = 1.5708
-scale = Vector2( 1.5, 1 )
-collision_mask = 0
-
-[node name="Wall" type="Sprite" parent="StaticBody2D4"]
-position = Vector2( 9.00006, 144 )
-scale = Vector2( 30, 3 )
-texture = ExtResource( 2 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
-position = Vector2( 10, 143 )
-shape = SubResource( 1 )
-
-[node name="Hex" type="KinematicBody2D" parent="."]
-position = Vector2( 325, 508 )
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 288, 512 )
 z_index = 2
 collision_layer = 0
 script = ExtResource( 1 )
@@ -93,37 +32,34 @@ gravity = 500
 max_gravity = 25000
 jump_speed = 1000
 
-[node name="Hex" type="Sprite" parent="Hex"]
+[node name="Hex" type="Sprite" parent="Player"]
+visible = false
 scale = Vector2( 0.4, 0.4 )
 texture = ExtResource( 3 )
 
-[node name="Fade" parent="Hex" instance=ExtResource( 5 )]
+[node name="Star" type="Sprite" parent="Player"]
+visible = false
+position = Vector2( 0, -8 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 9 )
 
-[node name="Area2D" type="Area2D" parent="Hex"]
+[node name="Area2D" type="Area2D" parent="Player"]
 position = Vector2( 2, -62 )
 collision_layer = 0
 collision_mask = 4
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hex/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Area2D"]
 position = Vector2( -1, 14 )
 shape = SubResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hex"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2( 0, -0.5 )
 shape = SubResource( 4 )
 
-[node name="Sprite" type="Sprite" parent="Hex"]
+[node name="Hat" type="Sprite" parent="Player"]
 position = Vector2( 1, -65 )
 scale = Vector2( 0.02, 0.02 )
 texture = ExtResource( 7 )
-
-[node name="Fitthing" type="Area2D" parent="."]
-position = Vector2( 464, 208 )
-collision_layer = 0
-collision_mask = 4
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Fitthing"]
-shape = SubResource( 3 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
@@ -135,30 +71,93 @@ margin_right = 1401.0
 margin_bottom = 847.0
 color = Color( 0.756863, 0.505882, 0.678431, 1 )
 
+[node name="Fade" parent="." instance=ExtResource( 5 )]
+
 [node name="Triangles" type="Node2D" parent="."]
 script = ExtResource( 6 )
 
 [node name="Traingle" parent="Triangles" instance=ExtResource( 4 )]
-position = Vector2( 470, 500 )
-initial_delay = 0.5
+position = Vector2( 448, 504 )
+initial_delay = 0.8
 
 [node name="Traingle4" parent="Triangles" instance=ExtResource( 4 )]
-position = Vector2( 129, 500 )
+position = Vector2( 128, 504 )
+initial_delay = 0.6
 
 [node name="Traingle2" parent="Triangles" instance=ExtResource( 4 )]
-position = Vector2( 660, 499 )
-initial_delay = 1.5
+position = Vector2( 640, 504 )
+initial_delay = 0.5
+
+[node name="Traingle5" parent="Triangles" instance=ExtResource( 4 )]
+position = Vector2( 792, 504 )
+initial_delay = 0.25
 
 [node name="Traingle3" parent="Triangles" instance=ExtResource( 4 )]
-position = Vector2( 911, 500 )
-initial_delay = 1.8
+position = Vector2( 920, 504 )
 
-[node name="Traingle" type="Sprite" parent="."]
-position = Vector2( 789, 59 )
-scale = Vector2( 0.05, 0.05 )
-texture = ExtResource( 7 )
+[node name="walls" type="Node2D" parent="."]
 
-[connection signal="start_game" from="Hex" to="Triangles" method="_on_Hex_start_game"]
-[connection signal="fade_out" from="Hex/Fade" to="Hex" method="_on_Fade_fade_out"]
-[connection signal="body_entered" from="Hex/Area2D" to="Hex" method="_on_Area2D_body_entered"]
-[connection signal="area_entered" from="Fitthing" to="Hex" method="_on_Fitthing_area_entered"]
+[node name="StaticBody2D" type="StaticBody2D" parent="walls"]
+position = Vector2( 472, 455 )
+scale = Vector2( 1.5, 1 )
+collision_mask = 0
+
+[node name="Wall" type="Sprite" parent="walls/StaticBody2D"]
+position = Vector2( 9.00006, 144 )
+scale = Vector2( 30, 3 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls/StaticBody2D"]
+position = Vector2( 10, 143 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="walls"]
+position = Vector2( 524, -161 )
+scale = Vector2( 1.5, 1 )
+collision_layer = 5
+collision_mask = 0
+
+[node name="Wall" type="Sprite" parent="walls/StaticBody2D2"]
+position = Vector2( 9.00006, 144 )
+scale = Vector2( 30, 3 )
+z_index = 10
+z_as_relative = false
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls/StaticBody2D2"]
+position = Vector2( 10, 143 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="walls"]
+position = Vector2( 1176, 160 )
+rotation = 1.5708
+scale = Vector2( 1.5, 1 )
+collision_mask = 0
+
+[node name="Wall" type="Sprite" parent="walls/StaticBody2D3"]
+position = Vector2( 9.00006, 144 )
+scale = Vector2( 30, 3 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls/StaticBody2D3"]
+position = Vector2( 10, 143 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="walls"]
+position = Vector2( 133, 179 )
+rotation = 1.5708
+scale = Vector2( 1.5, 1 )
+collision_mask = 0
+
+[node name="Wall" type="Sprite" parent="walls/StaticBody2D4"]
+position = Vector2( 9.00006, 144 )
+scale = Vector2( 30, 3 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls/StaticBody2D4"]
+position = Vector2( 10, 143 )
+shape = SubResource( 1 )
+
+[connection signal="start_game" from="." to="Triangles" method="_on_TriangleMinigame_start_game"]
+[connection signal="body_entered" from="Player/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="fade_out" from="Fade" to="." method="_on_Fade_fade_out"]

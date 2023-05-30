@@ -4,7 +4,31 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Press space to jump"
+			"text": "(Press space to jump)"
+		},
+		{
+			"character": "character-1684667450.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "3"
+		},
+		{
+			"character": "character-1684667478.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "2"
+		},
+		{
+			"character": "character-1684667456.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "1"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lets jump!!"
 		}
 	],
 	"metadata": {

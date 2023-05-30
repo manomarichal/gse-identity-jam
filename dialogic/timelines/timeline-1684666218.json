@@ -4,13 +4,13 @@
 			"character": "character-1684667491.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah man you did great Hex. Triangles! Point to Hex!"
+			"text": "Ah man you did great [pn]. Triangles! Point to [pn]!"
 		},
 		{
 			"character": "character-1684667450.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Wow Hex you jumped so fast and high!"
+			"text": "Wow [pn] you jumped so fast and high!"
 		},
 		{
 			"character": "character-1684667456.json",
@@ -22,7 +22,7 @@
 			"character": "character-1684667478.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yah Hex is the best!"
+			"text": "Yah [pn] is the best!"
 		},
 		{
 			"character": "",
@@ -40,7 +40,7 @@
 			"character": "character-1684667461.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yah Hex is great! You’re not hexed like the other hexagons I met. Your hex is hexagon!"
+			"text": "Yah [pn] is great! [pcompliment]"
 		},
 		{
 			"character": "character-1684603509.json",
@@ -52,7 +52,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Once more made aware that you view life from a different angle, you move away from the group of triangles."
+			"text": "Seems that you view life from a different angle, you move away from the group of triangles."
 		}
 	],
 	"metadata": {

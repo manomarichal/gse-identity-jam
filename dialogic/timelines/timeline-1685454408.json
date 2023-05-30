@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"character": "character-1684667456.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woooooooo!!"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awesome jump, [pn]"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You were right, the view is super awesome from here!"
+		},
+		{
+			"character": "character-1684667491.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know right!"
+		},
+		{
+			"character": "character-1684667478.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are awesome, Star."
+		},
+		{
+			"character": "character-1684667450.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One may even say out of this world!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685454408.json",
+		"name": "TriangleGood"
+	}
+}

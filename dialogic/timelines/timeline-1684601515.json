@@ -10,7 +10,7 @@
 			"character": "character-1684603443.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yah Hex you did amazing! You rolled just like a [wave amp=100 freq=5]sphere[/wave]!"
+			"text": "Yah [pn] you did amazing! You rolled just like a [wave amp=100 freq=5]sphere[/wave]!"
 		},
 		{
 			"character": "character-1684603509.json",
@@ -22,13 +22,13 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Thanks"
+			"text": "Thanks, all of you were so fast"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]Why am I so bad at rolling? All my edges hurt. If I had more edges I could roll just like them.[/i]"
+			"text": "[i]Why am I so bad at rolling? All my points hurt. If I had more angles I could roll just like them.[/i]"
 		},
 		{
 			"character": "",

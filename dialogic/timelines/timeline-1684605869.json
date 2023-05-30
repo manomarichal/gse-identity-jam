@@ -46,7 +46,7 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "A triple what? I’m hex the hexagon…"
+			"text": "A triple what? I’m [pn] the [ps]."
 		},
 		{
 			"character": "",
@@ -79,22 +79,10 @@
 			"text": "Yah, I suppose. Just walkin around."
 		},
 		{
-			"character": "character-1684666824.json",
+			"character": "character-1684666835.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parties not really your thing?"
-		},
-		{
-			"character": "character-1684603509.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "There are so many unfamiliar shapes…"
-		},
-		{
-			"character": "character-1684666824.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "No need to fred about it. You know what. Square9 just left, would you like to join us in our game?"
+			"text": "You! Square9 just left, would you like to join us in our game?"
 		},
 		{
 			"character": "character-1684603509.json",
@@ -107,12 +95,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Ah come on we can’t play our game with 8 shapes."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "All the squares start to move around, yelling that they are going to make a mega square again."
 		},
 		{
 			"character": "",

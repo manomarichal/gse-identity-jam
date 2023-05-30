@@ -10,8 +10,20 @@ var _has_interacted = false
 func _ready():
 	if Global.shape == 0:
 		$Hexagon.visible = true
+		Dialogic.set_variable("pn", "Hex")
+		Dialogic.set_variable("ps", "hexagon")
+		Dialogic.set_variable("pa", "6")
+		Dialogic.set_variable("pht", "the Hexagulf")
+		Dialogic.set_variable("pcompliment", "You’re not hexed like the other hexagons I met. Your hex is hexagon!")
+		Dialogic.set_variable("phex", "Why do these things keep happening to me, am I hexed?")
 	elif Global.shape == 1:
 		$Star.visible = true
+		Dialogic.set_variable("pn", "Star")
+		Dialogic.set_variable("ps", "star")
+		Dialogic.set_variable("pht", "Starkansas")
+		Dialogic.set_variable("trianglehat", false)
+		Dialogic.set_variable("pcompliment", "You truly were the star!")
+		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
 		
 	global_position = Global.player_pos
 	$Fade.fade_in()

@@ -16,7 +16,7 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Uhm uuhh, yah, I’m Hex… Party is fine, I guess."
+			"text": "Uhm uuhh, yah, I’m [pn]… Party is fine, I guess."
 		},
 		{
 			"character": "character-1684603463.json",
@@ -49,16 +49,10 @@
 			"text": "I am oooO, the greatest roller of the lowlands!"
 		},
 		{
-			"character": "character-1684603463.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yah right! I won the last game didn’t I! I am the faster roller of this party!"
-		},
-		{
 			"character": "character-1684603443.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Guys come one, let’s make Hex feel welcome. Actually would you like to join our game?"
+			"text": "Guys come one, let’s make [pn] feel welcome. Actually would you like to join our game?"
 		},
 		{
 			"character": "",
@@ -76,7 +70,7 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]Octagon? But I only have 6 edges…[i]"
+			"text": "[i]Octagon? But I only have [pa] angles...[i]"
 		},
 		{
 			"character": "character-1684603463.json",
