@@ -3,7 +3,7 @@ extends Node2D
 func _ready():
 	if Global.depri_percent == 0:
 		start_dialog("Intro")
-		Audio.get_node("AudioStreamPlayer2D").play()
+		#Audio.get_node("AudioStreamPlayer2D").play()
 
 func start_dialog(timeline):
 	var dialog = Dialogic.start(timeline)

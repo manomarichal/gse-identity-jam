@@ -4,25 +4,19 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You try to complete the mega square. However it has some holes…"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
 			"text": "Bam! The entire mega square falls apart as you couldn’t make it whole."
 		},
 		{
 			"character": "character-1684666854.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Arg! You stupid hexagon!"
+			"text": "Arg! "
 		},
 		{
 			"character": "character-1684666866.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Why did we even invite a hexagon!"
+			"text": "Why did we even invite such a shape!"
 		},
 		{
 			"character": "character-1684666824.json",
@@ -34,7 +28,7 @@
 			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sorry Hex, looks like it didn’t work out."
+			"text": "Sorry Star, looks like it didn’t work out."
 		},
 		{
 			"character": "",

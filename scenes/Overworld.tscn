@@ -109,7 +109,7 @@ tile_data = PoolIntArray( -3145781, 1, 0, -3145780, 1, 0, -3145779, 1, 0, -31457
 
 [node name="Circles" parent="." instance=ExtResource( 4 )]
 position = Vector2( -266, 152 )
-scene_path = "res://scenes/racing_minigame/RacingMinigame.tscn"
+scene_path = "res://scenes/circle_minigame/RacingMinigame.tscn"
 dialog_timeline = "CircleStart"
 
 [node name="Circle" type="Sprite" parent="Circles"]

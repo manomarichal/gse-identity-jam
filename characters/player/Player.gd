@@ -8,7 +8,11 @@ var _scene_to_switch = ""
 var _has_interacted = false
 
 func _ready():
-	print(global_position)
+	if Global.shape == 0:
+		$Hexagon.visible = true
+	elif Global.shape == 1:
+		$Star.visible = true
+		
 	global_position = Global.player_pos
 	$Fade.fade_in()
 
