@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Which shape's story would you like to follow?\nPress a number to choose: (1) Hexagon (2) Star (3) Hearth"
+			"text": "What shape do you want to play as? Press number to choose: [br](1) Hexagon     (2) Star [br](3) Moon          (4) Heart"
 		}
 	],
 	"metadata": {
