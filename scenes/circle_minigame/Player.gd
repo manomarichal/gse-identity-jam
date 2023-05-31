@@ -21,6 +21,7 @@ func start_dialog(timeline):
 	add_child(dialog)
 
 func _on_event_end(event_type):
+	Dialogic.set_variable("rc", "1")
 	if _goodend:
 		Global.shapes_placed[2] = true
 		get_tree().change_scene("res://scenes/intro/Intro.tscn")

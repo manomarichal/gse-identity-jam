@@ -88,13 +88,23 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "character-1684603463.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Let's race!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You join the circles in their rolling game."
 		}
 	],
 	"metadata": {

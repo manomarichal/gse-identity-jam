@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scenes/intro/Intro.gd" type="Script" id=1]
 [ext_resource path="res://other/Fade.tscn" type="PackedScene" id=2]
+[ext_resource path="res://other/random_assets/text.png" type="Texture" id=3]
 
 [node name="Intro" type="Node2D"]
 script = ExtResource( 1 )
@@ -14,5 +15,10 @@ margin_top = -24.0
 margin_right = 1104.0
 margin_bottom = 616.0
 color = Color( 0, 0, 0, 1 )
+
+[node name="Text" type="Sprite" parent="."]
+position = Vector2( 496, 224 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
 
 [connection signal="fade_out" from="Fade" to="." method="_on_Fade_fade_out"]

@@ -64,6 +64,7 @@ func _on_Fitthing_area_entered(area):
 	start_dialog("SquareGameStart")
 	
 func _on_Fade_fade_out():
+	Dialogic.set_variable("rs", "1")
 	if Global.shape == 0:
 		get_tree().change_scene("res://scenes/intro/Intro.tscn")
 	else:

@@ -133,6 +133,8 @@ color = Color( 0.756863, 0.505882, 0.678431, 1 )
 
 [node name="Finishline" type="Area2D" parent="."]
 position = Vector2( 3, -46 )
+z_index = -1
+z_as_relative = false
 collision_layer = 0
 collision_mask = 4
 script = ExtResource( 7 )

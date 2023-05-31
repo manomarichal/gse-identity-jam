@@ -11,4 +11,4 @@ func _ready():
 	$Fade.fade_in()
 	var audio = Audio.get_node("AudioStreamPlayer2D")
 	while (audio.volume_db < 0):
-		audio.volume_db += 1
+		audio.volume_db += 0.01

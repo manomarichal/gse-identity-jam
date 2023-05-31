@@ -1,11 +1,13 @@
 extends Node2D
 
 func _ready():
-	if not Global.has_read_intro and Global.depri_percent == 0:
+	if  Global.depri_percent == 0:
+		start_dialog("Intro")
+	if not Global.has_read_intro:
 		Global.has_read_intro = true
 		Dialogic.set_variable("rintro", "1")
-	start_dialog("Intro")
-		#Audio.get_node("AudioStreamPlayer2D").play()
+		Audio.get_node("AudioStreamPlayer2D").play()
+		
 		
 func start_dialog(timeline):
 	var dialog = Dialogic.start(timeline)

@@ -37,6 +37,7 @@ func _on_event_end(event_type):
 			var player = get_parent().get_node("Player")
 			player.get_node("Fade").fade_out();
 			yield(get_tree().create_timer(1.5), "timeout")
+			get_tree().change_scene("res://scenes/intro/Intro.tscn")
 		2:
 			var player = get_parent().get_node("Player")
 			player.get_node("Fade").fade_out();

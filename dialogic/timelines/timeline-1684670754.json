@@ -5,6 +5,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Do you want to leave the party? [br] (1) No        (2) Yes"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1000
 		}
 	],
 	"metadata": {

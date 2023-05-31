@@ -3,10 +3,18 @@ extends Node2D
 var trigger = false
 
 func _ready():
+	
+	$Fade.fade_in()
+	
+		
 	var h = Global.shapes_placed
 	if h[0] and h[1] and h[2] and h[3]:
 		get_tree().change_scene("res://scenes/end/End.tscn")
 		
+	var audio = Audio.get_node("AudioStreamPlayer2D")
+	while (audio.volume_db < 0):
+		audio.volume_db += 0.01
+			
 	$Fade.fade_in()
 	start_dialog("ShapeChoice")
 	Global.depri_percent = 0

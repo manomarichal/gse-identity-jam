@@ -97,13 +97,23 @@
 			"text": "There is one hole in the mega square."
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Guess il try to fit in...[/i]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0
+		},
+		{
 			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]Guess il try to fit in...[/i]"
+			"text": "You join the squares in making a big square."
 		}
 	],
 	"metadata": {

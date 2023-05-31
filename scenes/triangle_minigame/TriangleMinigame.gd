@@ -38,6 +38,7 @@ func _on_event_end(event_type):
 		$Fade.fade_out()
 
 func _on_Fade_fade_out():
+	Dialogic.set_variable("rt", "1")
 	if Global.shape == 1:
 		get_tree().change_scene("res://scenes/intro/Intro.tscn")
 	else:
