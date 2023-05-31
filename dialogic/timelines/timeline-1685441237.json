@@ -1,10 +1,52 @@
 {
 	"events": [
 		{
+			"character": "character-1684666847.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lets gooooo! We did it"
+		},
+		{
+			"character": "character-1684666866.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mega square achieved!"
+		},
+		{
+			"character": "character-1684666860.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't even notice the difference! Amazing job you [ps]!  "
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "T-thank you! Its a bit scary but im holding up!"
+		},
+		{
+			"character": "character-1684666854.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Look at us! We are even bigger than the famous Time's Square! "
+		},
+		{
+			"character": "character-1684666835.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I-I think im becoming erectangled! "
+		},
+		{
+			"character": "character-1684666866.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Let's try to last as long as possible, we need to show the world how amazing we are!!"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yee!\n"
+			"text": "And thus, Hex managed to fit in in the mega squares, and spend the party impressing bystanders with their formidable act."
 		}
 	],
 	"metadata": {

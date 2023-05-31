@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Do you want to leave the party? (1) No (2) Yes"
+			"text": "Do you want to leave the party? [br] (1) No        (2) Yes"
 		}
 	],
 	"metadata": {

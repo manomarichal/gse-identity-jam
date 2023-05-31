@@ -4,7 +4,12 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "What shape do you want to play as? Press number to choose: [br](1) Hexagon     (2) Star [br](3) Moon          (4) Heart"
+			"text": "What shape do you want to play as? Press number to choose: [br] [ci]     [si][br] [mi]          [hi]"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1000
 		}
 	],
 	"metadata": {

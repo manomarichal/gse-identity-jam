@@ -35,6 +35,18 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "One may even say out of this world!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you!! I never thought my shape would allow me to do such a cool thing"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And thus, [pn] found their place to fit in, and spent the rest of the night hanging with the triangles."
 		}
 	],
 	"metadata": {

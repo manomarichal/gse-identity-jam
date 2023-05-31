@@ -4,13 +4,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]None of the other shapes like me…[/i]\n[i]I don’t fit in anywhere.[/i]\n[i]I couldn't roll…[/i]\n[i]I literally didn't fit in with the squares… [/i]\n[i]The triangles were all liars…[/i]\nAs you start to leave the party moving towards the exit. You see OoOOo roll towards you."
+			"text": "[i]None of the other shapes like me…[/i]\n[i]I don’t fit in anywhere.[/i]\n[i]I couldn't roll…[/i]\n[i]I literally didn't fit in with the squares… [/i]\n[i]Didn't manage to jump like the triangles…[/i]\nAs you start to leave the party moving towards the exit. You see OoOOo roll towards you."
 		},
 		{
 			"character": "character-1684603443.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hey Hex, wait! How are you doing? I heard you couldn't really fit in with the shape games."
+			"text": "Hey [pn], wait! How are you doing? I heard you couldn't really fit in with the shape games."
 		},
 		{
 			"character": "character-1684603509.json",
@@ -34,7 +34,7 @@
 			"character": "character-1684603443.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ofcourse! Hex you are great! Some of us wish to be like you, so daring to mingle."
+			"text": "Ofcourse! [pn] you are great! Some of us wish to be like you, so daring to mingle."
 		},
 		{
 			"character": "character-1684603443.json",
@@ -46,7 +46,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "And so Hex the hexagon realized that they were part of the party all along. And all the shapes had a great and fun night dancing!\nEven if all the shapes are different, different shapes can still fit together. Be kind.\n"
+			"text": "And so [pn] the [ps] realized that they were part of the party all along. And all the shapes had a great and fun night dancing!\nEven if all the shapes are different, different shapes can still fit together. "
 		}
 	],
 	"metadata": {

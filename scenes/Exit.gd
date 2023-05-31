@@ -36,13 +36,13 @@ func _on_event_end(event_type):
 		1:
 			var player = get_parent().get_node("Player")
 			player.get_node("Fade").fade_out();
-			player._is_talking = false	
+			yield(get_tree().create_timer(1.5), "timeout")
 		2:
 			var player = get_parent().get_node("Player")
 			player.get_node("Fade").fade_out();
-			player._is_talking = false	
+			Global.shapes_placed[3] = true
 			yield(get_tree().create_timer(1.5), "timeout")
-			get_tree().change_scene("res://scenes/end/End.tscn")
+			get_tree().change_scene("res://scenes/intro/Intro.tscn")
 	
 
 func _on_Exit_body_entered(body):
@@ -58,7 +58,9 @@ func no_exit():
 func exit():
 	_dialog.queue_free()
 	_dialog = null
-	if Global.depri_percent > 0.85:
+	var h = Global.has_interacted
+	
+	if h[0] and h[1] and h[2]:
 		Global.depri_percent = 0.01
 		start_dialog("GoodEnding")
 		_end = 2

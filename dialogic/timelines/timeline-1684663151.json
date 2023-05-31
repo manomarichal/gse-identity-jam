@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1685547008-339",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -25,10 +31,13 @@
 			"text": "1"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "character-1684667491.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Lets jump!!"
+			"text": "Yahoo!!"
 		}
 	],
 	"metadata": {

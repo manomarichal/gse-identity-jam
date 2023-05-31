@@ -1,10 +1,16 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1685547008-339",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
 			"character": "character-1684667491.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah man you did great [pn]. Triangles! Point to [pn]!"
+			"text": "Nice jump![pn]!"
 		},
 		{
 			"character": "character-1684667450.json",
@@ -19,22 +25,10 @@
 			"text": "Yah that was awesome!"
 		},
 		{
-			"character": "character-1684667478.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yah [pn] is the best!"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[i]But I fell down...[/i]"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[i]Why are they all lying to me?[/i]"
 		},
 		{
 			"character": "character-1684667461.json",
@@ -46,13 +40,16 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ha, thanks I guess."
+			"text": "T-thanks I guess."
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Seems that you view life from a different angle, you move away from the group of triangles."
+			"text": "Unable to join the fun up top, you move away from the group of triangles."
 		}
 	],
 	"metadata": {

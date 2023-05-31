@@ -44,6 +44,60 @@
 			"name": "pn",
 			"type": 0,
 			"value": "default_name"
+		},
+		{
+			"id": "1685543925-648",
+			"name": "mi",
+			"type": 0,
+			"value": "[i]Moon[/i]"
+		},
+		{
+			"id": "1685543961-787",
+			"name": "ci",
+			"type": 0,
+			"value": "Hexagon"
+		},
+		{
+			"id": "1685543966-366",
+			"name": "si",
+			"type": 0,
+			"value": "Star"
+		},
+		{
+			"id": "1685543971-146",
+			"name": "hi",
+			"type": 0,
+			"value": "Heart"
+		},
+		{
+			"id": "1685546305-918",
+			"name": "pinsult",
+			"type": 0,
+			"value": "default insult"
+		},
+		{
+			"id": "1685547008-339",
+			"name": "rt",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685547008-713",
+			"name": "rs",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685547007-970",
+			"name": "rc",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685547421-785",
+			"name": "rintro",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }

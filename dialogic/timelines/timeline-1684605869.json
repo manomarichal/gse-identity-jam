@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1685547008-713",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -25,28 +31,16 @@
 			"text": "You see 9 squares forming a 3x3 big square"
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "A crowd of shapes is cheering them on"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "A very sharp and tough square appears in front of you."
-		},
-		{
 			"character": "character-1684666854.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "What are you? A triple square?"
+			"text": "[pinsult]"
 		},
 		{
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "A triple what? I’m [pn] the [ps]."
+			"text": "A what? I’m [pn] the [ps]."
 		},
 		{
 			"character": "",
@@ -64,19 +58,13 @@
 			"character": "character-1684603509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Thanks , I am Hex…"
+			"text": "Thanks , I am [pn]…"
 		},
 		{
 			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Don’t you worry, some of us squares are a bit rough around the edges. Are you enjoying your time here? The spheres throw the best parties."
-		},
-		{
-			"character": "character-1684603509.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yah, I suppose. Just walkin around."
+			"text": "Don’t you worry, some of us squares are a bit rough around the edges. "
 		},
 		{
 			"character": "character-1684666835.json",
@@ -109,10 +97,13 @@
 			"text": "There is one hole in the mega square."
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]Guess il try to fit in again...[/i]"
+			"text": "[i]Guess il try to fit in...[/i]"
 		}
 	],
 	"metadata": {

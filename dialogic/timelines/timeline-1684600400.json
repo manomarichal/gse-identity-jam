@@ -1,6 +1,18 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1685547007-970",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Hold right to move)"
+		},
+		{
 			"character": "character-1684603463.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -23,6 +35,9 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "1"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "character-1684603487.json",

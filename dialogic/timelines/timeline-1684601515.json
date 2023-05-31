@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1685547007-970",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
 			"character": "character-1684603463.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -35,6 +41,9 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "The spheres start to brag towards each other again."
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",

@@ -137,6 +137,7 @@ position = Vector2( -183, -762 )
 scene_path = "res://scenes/square_minigame/SquareMinigame.tscn"
 dialog_timeline = "SquareStart"
 globalInteractIndex = 1
+dialogReadVar = "rs"
 
 [node name="Square" type="Sprite" parent="InteractArea"]
 position = Vector2( -50, -58 )
@@ -183,6 +184,7 @@ position = Vector2( 902, -386 )
 scene_path = "res://scenes/triangle_minigame/TriangleMinigame.tscn"
 dialog_timeline = "TrianglePartey"
 globalInteractIndex = 2
+dialogReadVar = "rt"
 
 [node name="Traingle" type="Sprite" parent="InteractArea2"]
 position = Vector2( -20, 4 )

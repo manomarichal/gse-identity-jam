@@ -14,7 +14,6 @@ func _ready():
 
 func _process(delta):
 	if not _trigger and player.hit_ceiling:
-		print("hi")
 		_trigger = true
 		player.drop_down()
 		yield(get_tree().create_timer(2.3), "timeout")
@@ -22,6 +21,7 @@ func _process(delta):
 			start_dialog("JampEnd")
 		else:
 			start_dialog("TriangleGood")
+			Global.shapes_placed[1] = true
 
 func start_dialog(timeline):
 	player.disable_movement = true
@@ -38,5 +38,8 @@ func _on_event_end(event_type):
 		$Fade.fade_out()
 
 func _on_Fade_fade_out():
-	Global.depri_percent += 0.2
-	get_tree().change_scene("res://scenes/Overworld.tscn")
+	if Global.shape == 1:
+		get_tree().change_scene("res://scenes/intro/Intro.tscn")
+	else:
+		Global.depri_percent += 0.2
+		get_tree().change_scene("res://scenes/Overworld.tscn")

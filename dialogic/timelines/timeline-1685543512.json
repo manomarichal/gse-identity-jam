@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"character": "character-1684603463.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WOooOOOw, you went super fast!"
+		},
+		{
+			"character": "character-1684603468.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you sure this is your first time playing the game??"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha... Beginners luck I guess"
+		},
+		{
+			"character": "character-1684603443.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are all [ps]s this good at rolling?"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I dont know, I ask to try it out with my family once I return to [pht]!"
+		},
+		{
+			"character": "character-1684603520.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Send us a video!!"
+		},
+		{
+			"character": "character-1684603487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lets race again! See if you can beat me this time and become the best roller!"
+		},
+		{
+			"character": "character-1684603509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you dont mind!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And thus, [pn]'s party took a 360 degree turn, and they spent the rest of the evening having fun with the circles..."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685543512.json",
+		"name": "RaceEndGood"
+	}
+}
