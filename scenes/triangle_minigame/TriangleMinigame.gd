@@ -44,3 +44,4 @@ func _on_Fade_fade_out():
 	else:
 		Global.depri_percent += 0.2
 		get_tree().change_scene("res://scenes/Overworld.tscn")
+		Dialogic.set_variable("rtb", "1")

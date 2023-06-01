@@ -107,13 +107,13 @@
 			"transition_duration": 0
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You join the squares in making a big square."
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

@@ -98,13 +98,13 @@
 			"transition_duration": 0
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You join the circles in their rolling game."
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

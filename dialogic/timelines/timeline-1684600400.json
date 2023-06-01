@@ -37,13 +37,13 @@
 			"text": "1"
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "character-1684603487.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "GOOooOOoo!"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

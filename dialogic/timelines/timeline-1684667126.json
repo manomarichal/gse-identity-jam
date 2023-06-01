@@ -116,13 +116,13 @@
 			"transition_duration": 0
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You join the triangles in their jumping game."
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

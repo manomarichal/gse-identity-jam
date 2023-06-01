@@ -2,7 +2,7 @@
 	"events": [
 		{
 			"condition": "",
-			"definition": "1685547008-339",
+			"definition": "1685645352-905",
 			"event_id": "dialogic_012",
 			"value": "0"
 		},
@@ -43,9 +43,6 @@
 			"text": "T-thanks I guess."
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "character-1684667461.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -56,6 +53,9 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Unable to join the fun up top, you move away from the group of triangles."
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

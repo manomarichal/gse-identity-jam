@@ -30,17 +30,18 @@ func _ready():
 	
 func _start_game():
 	for child in $squares.get_children():
-		child.mode = RigidBody2D.MODE_RIGID
+		child.set_deferred("mode",RigidBody2D.MODE_RIGID) 
 	player.replace_by_rigid()
 	player.queue_free()
 	var i = 2 if Global.shape == 0 else 5
 	yield(get_tree().create_timer(i), "timeout")
+	_stage += 1
 	if Global.shape == 0:
 		start_dialog("SquareFinishGood")
 		Global.shapes_placed[0] = true
 	else:
 		start_dialog("SquareFinish")
-	_stage += 1
+
 
 func start_dialog(timeline):
 	var dialog = Dialogic.start(timeline)
@@ -69,4 +70,5 @@ func _on_Fade_fade_out():
 		get_tree().change_scene("res://scenes/intro/Intro.tscn")
 	else:
 		Global.depri_percent += 0.2
+		Dialogic.set_variable("rsb", "1")
 		get_tree().change_scene("res://scenes/Overworld.tscn")

@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"condition": "==",
+			"definition": "1685547008-713",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
 			"character": "character-1684666824.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -11,6 +17,9 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Here we goooooo"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

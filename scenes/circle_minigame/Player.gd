@@ -27,6 +27,7 @@ func _on_event_end(event_type):
 		get_tree().change_scene("res://scenes/intro/Intro.tscn")
 	else:
 		Global.depri_percent += 0.2
+		Dialogic.set_variable("rcb", "1")
 		get_tree().change_scene("res://scenes/Overworld.tscn")
 
 func _on_Finishline_body_entered(body):

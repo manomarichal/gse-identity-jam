@@ -28,12 +28,6 @@
 			"value": "true"
 		},
 		{
-			"id": "1685454352-339",
-			"name": "pcompliment",
-			"type": 0,
-			"value": "You’re not hexed like the other hexagons I met. Your hex is hexagon!"
-		},
-		{
 			"id": "1685454548-785",
 			"name": "phex",
 			"type": 0,
@@ -76,14 +70,20 @@
 			"value": "default insult"
 		},
 		{
-			"id": "1685547008-339",
-			"name": "rt",
+			"id": "1685454352-339",
+			"name": "pcompliment",
+			"type": 0,
+			"value": "You’re not hexed like the other hexagons I met. Your hex is hexagon!"
+		},
+		{
+			"id": "1685645353-192",
+			"name": "rcb",
 			"type": 0,
 			"value": "0"
 		},
 		{
-			"id": "1685547008-713",
-			"name": "rs",
+			"id": "1685645352-905",
+			"name": "rtb",
 			"type": 0,
 			"value": "0"
 		},
@@ -94,8 +94,26 @@
 			"value": "0"
 		},
 		{
+			"id": "1685547008-713",
+			"name": "rs",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685547008-339",
+			"name": "rt",
+			"type": 0,
+			"value": "0"
+		},
+		{
 			"id": "1685547421-785",
 			"name": "rintro",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685645349-842",
+			"name": "rsb",
 			"type": 0,
 			"value": "0"
 		}

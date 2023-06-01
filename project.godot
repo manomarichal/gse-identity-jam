@@ -80,7 +80,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="identity-jam"
+config/name="fitting-in"
 run/main_scene="res://scenes/intro/Intro.tscn"
 config/icon="res://icon.png"
 

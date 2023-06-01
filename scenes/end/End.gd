@@ -12,3 +12,4 @@ func _ready():
 	var audio = Audio.get_node("AudioStreamPlayer2D")
 	while (audio.volume_db < 0):
 		audio.volume_db += 0.01
+	

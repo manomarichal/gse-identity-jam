@@ -2,7 +2,7 @@
 	"events": [
 		{
 			"condition": "",
-			"definition": "1685547007-970",
+			"definition": "1685645353-192",
 			"event_id": "dialogic_012",
 			"value": "0"
 		},
@@ -43,13 +43,13 @@
 			"text": "The spheres start to brag towards each other again."
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Feeling disappointed you move away from the circles."
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

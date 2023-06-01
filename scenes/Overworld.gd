@@ -10,10 +10,11 @@ func _ready():
 		
 		
 func start_dialog(timeline):
+	$Player._is_talking = true
 	var dialog = Dialogic.start(timeline)
 	dialog.connect("event_end", self, "_on_event_end")
 	add_child(dialog)
-	$Player._is_talking = true
+	
 
 func _on_event_end(event_type):
 	$Player._is_talking = false

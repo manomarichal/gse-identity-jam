@@ -30,17 +30,17 @@ func _ready():
 		$Moon.visible = true
 		Dialogic.set_variable("pn", "Moon")
 		Dialogic.set_variable("ps", "moon")
-		Dialogic.set_variable("pht", "Starkansas")
-		Dialogic.set_variable("pcompliment", "You truly were the star!")
-		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
+		Dialogic.set_variable("pht", "Moonaco")
+		Dialogic.set_variable("pcompliment", "You truly were out of this world!")
+		Dialogic.set_variable("phex", "Guess il look at it from the bright side?")
 		Dialogic.set_variable("pinsult", "What are you? A deflated circle?")
 	elif Global.shape == 3:
 		$Heart.visible = true
 		Dialogic.set_variable("pn", "Heart")
 		Dialogic.set_variable("ps", "heart")
-		Dialogic.set_variable("pht", "Starkansas")
-		Dialogic.set_variable("pcompliment", "You truly were the star!")
-		Dialogic.set_variable("phex", "Why do disa-stars keep happening to me?")
+		Dialogic.set_variable("pht", "Lovebljana")
+		Dialogic.set_variable("pcompliment", "You were of the chearts!")
+		Dialogic.set_variable("phex", "As if I was already not having a heart time")
 		Dialogic.set_variable("pinsult", "What are you? A damaged circle?")
 		
 	global_position = Global.player_pos
@@ -84,6 +84,7 @@ func _switch_scene():
 	$Fade.fade_out()
 
 func _on_Fade_fade_out():
+	if _scene_to_switch == "": return
 	get_tree().change_scene(_scene_to_switch)
 
 
